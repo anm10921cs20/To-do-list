@@ -22,16 +22,19 @@ const Content = () => {
        
        
        
+
+       
        
         data.innerHTML = `${hour} : ${minute} : ${second} ${varl}`;
     }
-
+const date = new Date().toLocaleDateString();
 setInterval(timer, 1000)
     return (
         <main>
             <p> Lets {handleNameChange()} Money</p>
-            <button onDoubleClick={() => handleClick('mahan')}>mahan</button>
+            <button onClick={() => handleClick('mahan')}>mahan</button>
             <div className='date'><p className='timer'></p></div>
+            <div><p>{date}</p></div>
         </main>
 
 

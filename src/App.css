@@ -34,3 +34,9 @@ button
   justify-content: center;
   align-items: center;
 }
+footer
+{
+  text-align: center;
+  background-color: #ff4;
+  padding: 10px;
+}

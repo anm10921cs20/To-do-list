@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>To-Do List</header>
+    <header>Digital Callender</header>
   )
 }
 
